@@ -1,0 +1,8 @@
+#program to find minimum element from the list
+
+list=[45,67,23,89]
+min=list[0]
+for i in list:
+     if i<min:
+        min=i
+print("min value",min)
